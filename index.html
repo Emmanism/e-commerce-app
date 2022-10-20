@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-commerce app</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+
+            <div id="page-banner">
+            <h1 class="title">Bookarama</h1>
+            <p>Books for Scholars</p>
+
+            <form id="search-book">
+                <input type="text" placeholder="Search books..."/>
+            </form>
+
+            </div>
+        </header>
+
+        <div id="book-list">
+            <h2 class="title">Books to Read</h2>
+        
+
+        <ul>
+            <li>
+                <span class="name">Name of the wind</span>
+                <span class="delete">delete</span>
+            </li>
+
+            <li>
+                <span class="name">The wise man's fear</span>
+                <span class="delete">delete</span>
+            </li>
+
+            <li>
+                <span class="name">Kafka on the shore</span>
+                <span class="delete">delete</span>
+            </li>
+
+            <li>
+                <span class="name">The master and the margarita</span>
+                <span class="delete">delete</span>
+            </li>
+
+        </ul>
+        </div>
+
+        <form id="add-book">
+            <input type="checkbox" id="hide">
+            <label  for="hide" id="label">Hide all books</label>
+            <input type="text" id="add" placeholder="Add a book.."/>
+            <button id="btns">Add</button>
+
+        </form>
+
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
